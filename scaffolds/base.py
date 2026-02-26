@@ -21,6 +21,8 @@ SUPPORTED_MODELS = [
     "gemini-3-pro",
     # DeepSeek
     "deepseek-chat",
+    # Zhipu GLM
+    "glm-4.7",
 ]
 
 # 默认模型
