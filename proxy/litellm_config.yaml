@@ -36,6 +36,11 @@ model_list:
       api_key: os.environ/DEEPSEEK_API_KEY
       api_base: https://api.deepseek.com
 
+  - model_name: glm-4.7
+    litellm_params:
+      model: zai/glm-4.7
+      api_key: os.environ/ZAI_API_KEY
+
   # - model_name: your-custom-model
   #   litellm_params:
   #     model: anthropic/your-model-id
